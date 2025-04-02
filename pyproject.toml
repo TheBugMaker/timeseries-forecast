@@ -1,0 +1,24 @@
+[project]
+name = "wolt"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "gochi-north",email = "gochi@gonorth.ai"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "plotly (>=6.0.1,<7.0.0)",
+    "darts (>=0.34.0,<0.35.0)",
+    "pandas (>=2.2.3,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+jupyter-copilot = "^0.1.4"
+
